@@ -1,2 +1,2 @@
 # v2d
-html - webgl  - [cls - crs] - slam
+html[camera] - webgl  - [cls - crs] - slam
