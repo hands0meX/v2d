@@ -1,4 +1,4 @@
-·// user授权使用媒体
+// user授权使用媒体
 
 // navigator.mediaDevices.getUserMedia(
 //     {
