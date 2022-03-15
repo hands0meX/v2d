@@ -4,7 +4,7 @@
   "description": "html - webgl  - [cls - crs] - slam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"esbuild packageDemos/cameraTest/src/boot.ts --bundle --outfile=packageDemos/cameraTest/src/boot.js --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hands0meX/v2d/issues"
   },
-  "homepage": "https://github.com/hands0meX/v2d#readme"
+  "homepage": "https://github.com/hands0meX/v2d#readme",
+  "dependencies": {
+    "esbuild": "^0.14.27"
+  }
 }
