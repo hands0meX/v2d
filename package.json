@@ -4,7 +4,10 @@
   "description": "html - webgl  - [cls - crs] - slam",
   "main": "index.js",
   "scripts": {
-    "build":"esbuild packageDemos/cameraTest/src/boot.ts --bundle --outfile=packageDemos/cameraTest/src/boot.js --watch"
+    "cpModel":"cp -r ~/blenderAssets/cube2.glb ~/github.com/v2d/src/model/libs/models",
+    "tsbuild:demo":"esbuild packageDemos/cameraTest/src/boot.ts --bundle --outfile=packageDemos/cameraTest/src/boot.js --watch",
+    "tsbuild:dev":"esbuild src/boot.ts --bundle --outfile=src/boot.js --watch",
+    "lessloader":"lessc src/project/assets/custom.less > src/project/assets/custom.css"
   },
   "repository": {
     "type": "git",
